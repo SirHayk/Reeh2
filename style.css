@@ -6,9 +6,10 @@
 }
 
 body {
-	background-image: linear-gradient(to right top, #2d0036, #4f015b, #730283, #9a02ac, #C400D7);
+	background-image: linear-gradient(to right top, #2626FF, #0404FF, #0000EA, #000088, #000088);
 	font-family: Montserrat, sans-serif;
-	
+	color: #FFFFFF;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -33,7 +34,7 @@ p {
 }
 
 .card-container {
-	background-color: #231E39;
+	background-color: #00009F;
 	border-radius: 25px;
 	box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
 	color: #B3B8CD;
@@ -47,8 +48,8 @@ p {
 }
 
 .card-container .pro {
-	color: #231E39;
-	background-color: #5CFF26;
+	color: #FFFFFF;
+	background-color: #00008C;
 	border-radius: 3px;
 	font-size: 14px;
 	font-weight: bold;
@@ -83,7 +84,7 @@ button.primary.ghost {
 }
 
 .skills {
-	background-color: #1F1A36;
+	background-color: #000088;
 	text-align: left;
 	padding: 15px;
 	margin-top: 30px;
@@ -97,7 +98,7 @@ button.primary.ghost {
 }
 
 .skills ul li {
-	border: 1px solid #2D2747;
+	border: 1px solid #FFFFFF;
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 12px;
@@ -113,13 +114,13 @@ button.primary.ghost {
 /* Añade un nuevo bloque @keyframes para la animación */
 @keyframes borderAnimation {
   0% {
-    border-color: #269700; /* Inicio de la animación, color morado oscuro */
+    border-color: #00008C; /* Inicio de la animación, color morado oscuro */
   }
   50% {
-    border-color: #5CFF26; /* Punto medio de la animación, color morado medio */
+    border-color: #0000D9; /* Punto medio de la animación, color morado medio */
   }
   100% {
-    border-color: #269700; /* Final de la animación, vuelve al color morado oscuro */
+    border-color: #00008C; /* Final de la animación, vuelve al color morado oscuro */
   }
 }
 
